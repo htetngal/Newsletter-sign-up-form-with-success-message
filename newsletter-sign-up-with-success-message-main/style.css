@@ -32,7 +32,7 @@ body {
 }
 
 ul {
-    list-style-image: url("./assets/images/icon-list.svg");
+    list-style-image: url("assets/images/icon-list.svg");
 }
 
 .subscribe {
@@ -66,7 +66,7 @@ ul {
 .right {
     width: 40%;
     height: 100%;
-    background-image: url("../newsletter-sign-up-with-success-message-main/assets/images/illustration-sign-up-desktop.svg");
+    background-image: url("assets/images/illustration-sign-up-desktop.svg");
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -104,7 +104,7 @@ ul {
         padding: 0;
     }
     .right {
-        background-image: url("../newsletter-sign-up-with-success-message-main/assets/images/illustration-sign-up-mobile.svg");
+        background-image: url("assets/images/illustration-sign-up-mobile.svg");
         width: 100%;
         height: 40%;
         background-position: top;
