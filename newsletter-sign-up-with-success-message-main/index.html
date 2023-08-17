@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="left">
+            <h1 style="font-weight: bold;">Stay Updated!</h1>
+            <div class="text">
+                <p>Join 60,000+ product managers receiving monthly updates on:</p>
+                <ul>
+                    <li>Product discovery and building what matters</li>
+                    <li>Measuring to ensure updates are a success</li>
+                    <li>And much more!
+                    </li>
+                </ul>
+            </div>
+
+            <div class="subscribe">
+                <label for="exampleFormControlInput1" class="form-label" style="font-size: 13px;">Email address </label>
+                <label for="exampleFormControlInput1" class="invalid form-label" style="font-size: 13px; color: red; float: right; font-size: 13px;"></label>
+                <input type="email" class="form-control email" id="exampleFormControlInput1" placeholder="example@company.com">
+                <button type="button" class="btn form-control"> Subscribe to monthly newsletter</button>
+            </div>
+
+        </div>
+        <div class="right">
+        </div>
+    </div>
+
+    <div class="successful">
+        <div class="innerSuccessful">
+            <img src="../newsletter-sign-up-with-success-message-main/assets/images/icon-success.svg" alt="">
+            <h2 style="font-weight: bold; margin-top: 10px;">Thanks for subscribing!</h2>
+            <p style="padding: 5px;">A confirmation email has been sent to <span class="userEmail" style="font-weight: bold;"></span> Please open it and click the button inside to confirm your subscription.
+            </p>
+            <button type="button" class="btn btn-primary form-control dismiss">Dismiss message</button>
+        </div>
+    </div>
+
+    <div class="attribution">
+        <p style="color: aliceblue;">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/htetngal">HtetNgal</a></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
